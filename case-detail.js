@@ -1,7 +1,7 @@
 const params = new URLSearchParams(window.location.search);
 const caseId = params.get("id");
 
-fetch("content/cases.json")
+fetch("cases.json")
   .then(res => res.json())
   .then(data => {
     const project = data.find(item => item.id === caseId);
@@ -18,3 +18,4 @@ fetch("content/cases.json")
       imgWrap.appendChild(img);
     });
   });
+
