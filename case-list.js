@@ -1,7 +1,7 @@
 let visibleCount = 6;
 let allCases = [];
 
-fetch("content/cases.json")
+fetch("cases.json")
   .then(res => res.json())
   .then(data => {
     allCases = data;
@@ -33,3 +33,4 @@ document.getElementById("loadMoreBtn").addEventListener("click", () => {
   visibleCount += 3;
   renderCases();
 });
+
