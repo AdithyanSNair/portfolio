@@ -1,0 +1,15 @@
+[
+  {
+    "id": "ecommerce-redesign",
+    "title": "E-commerce Website Redesign",
+    "thumbnail": "assets/cases/case1.jpg",
+    "description": "Improving usability, checkout flow, and visual clarity.",
+    "tools": "Figma, Photoshop, Wix",
+    "images": [
+      "assets/cases/case1.jpg",
+      "assets/cases/case2.jpg",
+      "assets/cases/case3.jpg"
+    ],
+    "date": "2025-01-06"
+  }
+]

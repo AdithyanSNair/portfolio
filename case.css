@@ -1,0 +1,50 @@
+.case-page-hero,
+.case-hero {
+  padding: 120px 0 60px;
+  text-align: center;
+}
+
+.case-page-hero span {
+  color: #a7d8c9;
+}
+
+.case-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  width: 90%;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.case-card {
+  background: #121212;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.case-card img {
+  width: 100%;
+  display: block;
+}
+
+.case-images img {
+  width: 90%;
+  max-width: 900px;
+  display: block;
+  margin: 40px auto;
+}
+
+.load-more-wrap {
+  text-align: center;
+  margin: 60px 0;
+}
+
+button {
+  padding: 14px 28px;
+  background: transparent;
+  border: 1px solid #2a2a2a;
+  color: white;
+  border-radius: 10px;
+}
+
